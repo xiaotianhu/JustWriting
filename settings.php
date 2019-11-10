@@ -4,15 +4,15 @@
 $blog_config['language']	= 'english';
 
 //blog title
-$blog_config['title'] = 'Just Writing';
+$blog_config['title'] = 'V2CB';
 //blog sub title
-$blog_config['intro'] = 'Super Simple Blog Engine';
+$blog_config['intro'] = 'Way to code better';
 //blog author
-$blog_config['author']='JustWriting';
+$blog_config['author']='V2CB';
 //"About Me" box
-$blog_config['aboutme']='This is about JustWriting';
+$blog_config['aboutme']='@rainyluo';
 //blog avatar
-$blog_config['avatar']= 'https://raw.githubusercontent.com/hjue/JustWriting/develop/docs/logo.png';
+$blog_config['avatar']= '/posts/images/head.png';
 
 //blog template name.The template root path is /templates.You can set rock or deepure. 
 $blog_config['template'] = 'rock';
@@ -28,7 +28,7 @@ $blog_config['disqus_short_name'] = '';
 $blog_config['base_url'] = '';
 
 //your github url
-$blog_config['github'] = 'https://github.com/hjue/JustWriting';
+$blog_config['github'] = 'https://github.com/xiaotianhu';
 
 //other social network : twitter, facebook, rss and email. For example :
 $blog_config['twitter'] = '';
@@ -53,14 +53,3 @@ $blog_config['dropbox']['access_token']= '';
  */
 $blog_config['highlight']='default';
 
-//remove comment to support Latex math equations
-/*
-$blog_config['mathjax']='<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
-MathJax.Hub.Config({
-    tex2jax: {
-         inlineMath: [ ["$","$"]]
-         },
-     extensions: ["jsMath2jax.js", "tex2jax.js"],
-     messageStyle: "none"
- });</script>';
-*/
