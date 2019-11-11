@@ -407,12 +407,7 @@ class blog_lib{
             'toc'=>$toc,
             'link'=> $this->CI->blog_config['base_url']."/post/$slug",
             'title' => $post_title, 'author' => $post_author, 'date' => $post_date, 'tags' => $post_tags, 'status' => $post_status, 'intro' => $post_intro, 'content' => $post_content,'category'=>$post_category);
-            if($position){
-              $post_dates[] = $position;
-            }else{
-              $post_dates[] = $post_date;
-
-            }
+            $post_dates[] = $post_date;
 
             $post_titles[] = $post_title;
             $post_authors[] = $post_author;
@@ -423,7 +418,6 @@ class blog_lib{
           }
       }
 
-        //
         array_multisort($post_dates, SORT_DESC, $files);
 
         $this->_all_posts = $files;
